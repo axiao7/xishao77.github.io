@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Vincenzo</title>
+  <title>一些CSS知识 | Vincenzo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vincenzo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="简单CSS免费使用库loader.css无论是电脑端还是移动端，都有可能因为一些原因而导致等待，这个时候，能够给用户一些反馈，告诉用户，正在加载中，那么用户就不必有什么多余的担心，知道只要安静的等待就行。如果加载的效果能够更好一些，那么用户的体验会更佳。对于PC端，现在网速都还可以，可以用GIF代替，但是对于移动端，尤其是对于还使用着2G(特别是联通)的人来说，这是难以忍受的。loader.css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一些CSS知识">
+<meta property="og:url" content="http://yoursite.com/2015/10/31/一些CSS知识/index.html">
 <meta property="og:site_name" content="Vincenzo">
-<meta property="og:description">
+<meta property="og:description" content="简单CSS免费使用库loader.css无论是电脑端还是移动端，都有可能因为一些原因而导致等待，这个时候，能够给用户一些反馈，告诉用户，正在加载中，那么用户就不必有什么多余的担心，知道只要安静的等待就行。如果加载的效果能够更好一些，那么用户的体验会更佳。对于PC端，现在网速都还可以，可以用GIF代替，但是对于移动端，尤其是对于还使用着2G(特别是联通)的人来说，这是难以忍受的。loader.css">
+<meta property="og:updated_time" content="2015-10-31T15:36:30.800Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vincenzo">
-<meta name="twitter:description">
+<meta name="twitter:title" content="一些CSS知识">
+<meta name="twitter:description" content="简单CSS免费使用库loader.css无论是电脑端还是移动端，都有可能因为一些原因而导致等待，这个时候，能够给用户一些反馈，告诉用户，正在加载中，那么用户就不必有什么多余的担心，知道只要安静的等待就行。如果加载的效果能够更好一些，那么用户的体验会更佳。对于PC端，现在网速都还可以，可以用GIF代替，但是对于移动端，尤其是对于还使用着2G(特别是联通)的人来说，这是难以忍受的。loader.css">
   
     <link rel="alternative" href="/atom.xml" title="Vincenzo" type="application/atom+xml">
   
@@ -59,9 +60,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-一些CSS知识" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-一些CSS知识" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/10/31/一些CSS知识/" class="article-date">
   <time datetime="2015-10-31T15:35:13.000Z" itemprop="datePublished">2015-10-31</time>
@@ -74,8 +73,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/31/一些CSS知识/">一些CSS知识</a>
+    <h1 class="article-title" itemprop="name">
+      一些CSS知识
     </h1>
   
 
@@ -160,67 +159,20 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-微信端开发-本地测试" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/10/30/微信端开发-本地测试/" class="article-date">
-  <time datetime="2015-10-30T13:04:20.000Z" itemprop="datePublished">2015-10-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/10/30/微信端开发-本地测试/">微信端开发-本地测试</a>
-    </h1>
+    <a href="/2015/10/30/微信端开发-本地测试/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">微信端开发-本地测试</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="搭建微信公众平台本地开发测试环境">搭建微信公众平台本地开发测试环境</h2><blockquote>
-<p>开学前分配了新生笑脸的项目，由于是微信端，开发过程中，感觉比较困难的是本地测试的环节。因为是上线项目，能够在本地进行测试是最好的，但是微信浏览器只有手机上面有，所以就只能通过代理的方式进行手机端的调试。</p>
-</blockquote>
-<h4 id="需要的工具">需要的工具</h4><pre><code><span class="number">1</span>.联网主机
-<span class="number">2</span>.和主机处于同一网段的手机(通常使用同一wifi,自动获取的<span class="literal">ip</span>一般都是同一网段的，其实就是<span class="literal">ip</span>四个数字中最后那个不同而已，可以通过命令行ipconfig查询主机<span class="literal">ip</span>)
-<span class="number">3</span>.开启代理服务和抓包工具，我的是windows，用的是fiddler,mac使用charles
-</code></pre><h4 id="详细步骤">详细步骤</h4><pre><code><span class="number">1</span>.设置和电脑连在同一wifi下的手机的代理服务器<span class="literal">ip</span>地址
-</code></pre><p>   安卓:<a href="javascript:window.open('http://jingyan.baidu.com/article/fd8044faebfaa85030137a72.html')" target="_blank" rel="external">点此查看教程</a></p>
-<pre><code><span class="number">2.</span>启动fiddler代理和抓包
-</code></pre><p>   点击Tools-&gt;Fiddler Options-&gt;connection，在port里面设置为8888</p>
-<pre><code><span class="number">3.</span>修改主机host，让手机访问url,从而通过微信验证
-</code></pre><p>   <a href="javascript:window.open('http://jingyan.baidu.com/article/9faa72317903f1473c28cb01.html')" target="_blank" rel="external">点此查看教程</a></p>
-<pre><code><span class="number">4.</span>打开wampserver,将项目放到www文件夹内
-</code></pre><p>   我尝试的时候www只放了当前微信端项目</p>
-<pre><code><span class="number">5.</span>用手机向公众号发送一条信息，就是第<span class="number">3</span>步设置的host时所指定的域名，然后点击，发送的请求就会被定向到主机的localhost页面，也就是微信端项目，通过这种方式就可以在微信浏览器打开已经开发好的页面，并进行调试
-</code></pre><h4 id="另一种方式">另一种方式</h4><blockquote>
-<p>也是需要代理，但是是利用fiddler的AutoResponder,通过正则匹配url，可以将发送的请求重新导向到本地的某一个页面，这是在分享会上学到的，但是应该没有试过。</p>
-</blockquote>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/30/微信端开发-本地测试/" data-id="cigf94oia0003gcu3kunrvkzr" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/微信端本地调试开发/">微信端本地调试开发</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
 
-
-  
-  
 </section>
         
           <aside id="sidebar">
